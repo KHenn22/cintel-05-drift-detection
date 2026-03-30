@@ -137,6 +137,17 @@ git push -u origin main
 
 </details>
 
+## Make a Technical Modification
+
+- I added median metrics alongside means for requests, errors, and latency to
+  reduce outlier sensitivity in drift detection.
+- What I observed: All 6 drift flags triggered (True) for both mean and
+  median metrics. Reference median latency (3865ms) was slightly higher than
+  the mean (3835ms), and current median latency (5725ms) was higher than the
+  mean (5670ms), suggesting some upward outliers in latency data. Requests and
+  errors showed minimal difference between mean and median, indicating a fairly
+  consistent distribution for those metrics.
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
