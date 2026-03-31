@@ -11,7 +11,7 @@ site_name = "Continuous Intelligence"
 site_url = "https://KHenn22.github.io/cintel-05-drift-detection/"
 repo_url = "https://github.com/KHenn22/cintel-05-drift-detection"
 repo_name = "KHenn22/cintel-05-drift-detection"
-site_description = "Continuous Intelligence project documentation"
+site_description = "Drift detection with median metrics and percent change analysis"
 docs_dir = "docs" # source directory for documentation markdown files
 site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
 edit_uri = "edit/main/docs/" # "Edit this page" links (GitHub)
@@ -61,5 +61,6 @@ nav = [
     { "Home" = "index.md" },
     { "Project Instructions" = "project-instructions.md" },
     { "Your Files" = "your-files.md" },
+    { "Drift Chart" = "drift_chart.md"},
     { "Glossary" = "glossary.md" },
 ]

@@ -148,6 +148,15 @@ git push -u origin main
   errors showed minimal difference between mean and median, indicating a fairly
   consistent distribution for those metrics.
 
+## Apply Skills to Complete the Project
+
+- Added percent change columns (requests, errors, latency) to show
+  proportional drift alongside absolute differences. Errors increased
+  by ~174%, making it the most critical metric despite its small
+  absolute value.
+
+![Drift Percentage](docs/images/drift_percentage.png)
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.

@@ -5,10 +5,10 @@
 # WHY: Centralizes project configuration.
 
 [project]
-name = "cintel" # Package distribution name (lowercase and dashes).
+name = "cintel-hennelly" # Package distribution name (lowercase and dashes).
 readme = "README.md"
 requires-python = ">=3.14"
-version = "0.1.0"
+version = "0.2.0"
 
 dependencies = [
     # REQ.DEPS: External packages used by the project code.

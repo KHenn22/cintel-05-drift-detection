@@ -12,8 +12,8 @@ wheels = [
 ]
 
 [[package]]
-name = "cintel"
-version = "0.1.0"
+name = "cintel-hennelly"
+version = "0.2.0"
 source = { editable = "." }
 dependencies = [
     { name = "datafun-toolkit" },
